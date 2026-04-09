@@ -132,6 +132,18 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .content {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 40px auto;
+    text-align: center;
+    height: auto;
+  }
+}
+
 
 @-webkit-keyframes opacity {
   0%, 100% {opacity:0;}
