@@ -27,9 +27,11 @@
     background:url(../header_pic.png); 
     background-repeat:no-repeat;}
  	header.masthead .header-content{max-width:500px;margin-bottom:100px;color:white;font-size:65px;text-align:left; 
- 	position:relative;
- 	top:20px;
-    left:550px;}
+   position: relative;
+   margin: 0 auto;
+   text-align: center;
+   left: 0;
+   top: 20px;}
  	header.masthead .header-content
  	 h1{font-size:30px}header.masthead .device-container{max-width:325px;
  	 	margin-right:auto;margin-left:auto}
