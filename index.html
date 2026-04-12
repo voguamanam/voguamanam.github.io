@@ -103,8 +103,9 @@
               </h3>
           <style>
             .profile-img {
-              width: 250px;
-              height: 250px;
+              width: 100%;        /* fill the column width instead of fixed 250px */
+              max-width: 300px;   /* but don't get too big */
+              height: 300px;
               object-fit: cover;
               border-radius: 50%;
               max-width: 100%;
